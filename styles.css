@@ -1,0 +1,66 @@
+/* Navbar background */
+.custom-navbar {
+  background-color: #88abf1;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.carousel-control-next-icon .nav-link { 
+  color: #88abf1; 
+  font-weight: 500; 
+  margin-left: 15px; 
+  transition: color 0.3s ease; 
+}
+
+.custom-navbar .nav-link:hover { 
+  color: #ffffff; /* abu elegan */ 
+}
+
+.custom-navbar .nav-link { 
+  position: relative; 
+}
+
+.custom-navbar .nav-link::after { 
+  content: ""; 
+  position: absolute; 
+  width: 0; 
+  height: 2px; 
+  background-color: #ffffff; 
+  bottom: 0; 
+  left: 0; 
+  transition: width 0.3s ease; 
+}
+
+.custom-navbar .nav-link:hover::after { 
+  width: 100%; }
+
+.nav-link.active {
+  background-color: white;
+  border-radius: 20%;
+}
+
+/* Tulisan di Catalogue */
+.stroke-text {
+  -webkit-text-stroke: 2px rgb(37, 126, 195); /* ketebalan & warna stroke */
+  color: white;                  /* warna isi teks */
+}
+
+/* agar gambar di gallery tidak satu layar full */
+.carousel-item {
+height: 400px; /* ubah sesuai selera */
+}
+
+.carousel-item img {
+height: 100%;
+object-fit: cover;
+}
+/* agar panah kiri kanan kelihatan (berlawanan dengan backgorund) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+/* Hitung shipping cost */
+#shippingCost {
+  font-weight: bold;
+  background-color: #f8f9fa;
+}

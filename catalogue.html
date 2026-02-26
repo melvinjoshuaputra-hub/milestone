@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="em">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./styles.css">
+        <title>Mileston-Melvin</title>
+        <link 
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+  rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header -->
+        <nav class="navbar navbar-expand-lg custom-navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" id="logoMelby"> 
+                    <!-- logoMelby untuk hubungkan ke js -->
+                    <img src="./img/logo melby background.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    MELBY
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="./catalogue.html">Catalogue</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./hitung_ongkir.html">Ongkir</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link " href="./log_in.html">Log In</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Find Us
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./about_us.html">About Us</a></li>
+                        <li><a class="dropdown-item" href="./contact_us.html">Contact Us</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Belum ada apa-apa" aria-label="Search"/>
+                    <button class="btn btn-outline-success" type="submit" id="btnSearch">Search</button>
+                </form>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container px-4 py-5" id="custom-cards"> 
+            <h1 class="pb-2 border-bottom">OUR CATALOGUE</h1> 
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"> 
+                    <h1 class="text-center">Merge Lage</h1>
+                    <div class="col"> 
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style=
+                            "background-image: url('./img/merge\ large.PNG'); 
+                            background-size: cover; 
+                            background-position: center;  
+                            background-repeat: no-repeat;">
+                            <!-- cover : untuk gambar memenuhi kotak -->
+                            <!-- center : untuk gambar diposisi tengah -->
+                            <!-- no-repeat : untuk gambar tidak repeat  -->
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"> 
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold stroke-text">Merge Large</h3> 
+                                <ul class="d-flex list-unstyled mt-auto"> 
+                                    <li class="me-auto"> 
+                                        <img src="./img/logo melby background.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> </li> 
+                                        <li class="d-flex align-items-center me-3"> 
+                                            <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
+                                                <use xlink:href="#geo-fill"></use>
+                                            </svg> 
+                                            <small>melbyofficial</small> 
+                                        </li> 
+                                    </ul> 
+                                </div> 
+                            </div> 
+                        </div> 
+                    <h1 class="text-center">Merge Mini</h1>
+                    <div class="col"> 
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style=
+                            "background-image: url('./img/merge\ mini.webp'); 
+                            background-size: cover; 
+                            background-position: center;  
+                            background-repeat: no-repeat;">
+                            <!-- cover : untuk gambar memenuhi kotak -->
+                            <!-- center : untuk gambar diposisi tengah -->
+                            <!-- no-repeat : untuk gambar tidak repeat  --> 
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1"> 
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold stroke-text">Merge Mini</h3> 
+                                <ul class="d-flex list-unstyled mt-auto"> <li class="me-auto"> 
+                                    <img src="./img/logo melby background.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> 
+                                </li> 
+                                <li class="d-flex align-items-center me-3"> 
+                                    <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
+                                            <use xlink:href="#geo-fill"></use>
+                                    </svg> 
+                                    <small>melbyofficial</small> 
+                                </li> 
+                            </ul> 
+                        </div> 
+                    </div> 
+                </div> 
+                <h1 class="text-center">Marcello Shoulder</h1>
+                <div class="col"> 
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style=
+                        "background-image: url('./img/marcello\ shoulder.WEBP'); 
+                        background-size: cover; 
+                        background-position: center;  
+                        background-repeat: no-repeat;">
+                        <!-- cover : untuk gambar memenuhi kotak -->
+                        <!-- center : untuk gambar diposisi tengah -->
+                        <!-- no-repeat : untuk gambar tidak repeat  --> 
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1"> 
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold stroke-text">Marcello Shoulder</h3> 
+                            <ul class="d-flex list-unstyled mt-auto"> 
+                                <li class="me-auto"> 
+                                    <img src="./img/logo melby background.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> 
+                                </li> 
+                                <li class="d-flex align-items-center me-3"> 
+                                    <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg> 
+                                    <small>melbyofficial</small> 
+                                </li> 
+                            </ul> 
+                        </div> 
+                    </div> 
+                </div>                 
+            </div> 
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <h1 class="text-center">Giorgio Bucket</h1>
+                <div class="col"> 
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style=
+                        "background-image: url('./img/giorgio\ bucket.jpeg'); 
+                        background-size: cover; 
+                        background-position: center;  
+                        background-repeat: no-repeat;">
+                        <!-- cover : untuk gambar memenuhi kotak -->
+                        <!-- center : untuk gambar diposisi tengah -->
+                        <!-- no-repeat : untuk gambar tidak repeat  -->
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1"> 
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold stroke-text">Giorgio Bucket</h3> 
+                            <ul class="d-flex list-unstyled mt-auto"> 
+                                <li class="me-auto"> 
+                                    <img src="./img/logo melby background.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> </li> 
+                                    <li class="d-flex align-items-center me-3"> 
+                                        <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
+                                            <use xlink:href="#geo-fill"></use>
+                                        </svg> 
+                                        <small>melbyofficial</small> 
+                                    </li> 
+                                </ul> 
+                            </div> 
+                        </div> 
+                    </div> 
+                <h1 class="text-center">Russo Large</h1>
+                <div class="col"> 
+                   <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style=
+                        "background-image: url('./img/russo\ large.WEBP'); 
+                        background-size: cover; 
+                        background-position: center;  
+                        background-repeat: no-repeat;">
+                        <!-- cover : untuk gambar memenuhi kotak -->
+                        <!-- center : untuk gambar diposisi tengah -->
+                        <!-- no-repeat : untuk gambar tidak repeat  --> 
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1"> 
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold stroke-text">Russo Large</h3> 
+                            <ul class="d-flex list-unstyled mt-auto"> <li class="me-auto"> 
+                                <img src="./img/logo melby background.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> 
+                            </li> 
+                            <li class="d-flex align-items-center me-3"> 
+                                <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
+                                        <use xlink:href="#geo-fill"></use>
+                                </svg> 
+                                <small>melbyofficial</small> 
+                            </li> 
+                        </ul> 
+                    </div> 
+                </div> 
+                </div> 
+                <h1 class="text-center">Russo Mini</h1>
+                <div class="col"> 
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style=
+                        "background-image: url('./img/russo\ mini.jpeg'); 
+                        background-size: cover; 
+                        background-position: center;  
+                        background-repeat: no-repeat;">
+                        <!-- cover : untuk gambar memenuhi kotak -->
+                        <!-- center : untuk gambar diposisi tengah -->
+                        <!-- no-repeat : untuk gambar tidak repeat  --> 
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1"> 
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold stroke-text">Russo Mini</h3> 
+                            <ul class="d-flex list-unstyled mt-auto"> 
+                                <li class="me-auto"> 
+                                    <img src="./img/logo melby background.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> 
+                                </li> 
+                                <li class="d-flex align-items-center me-3"> 
+                                    <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg> 
+                                    <small>melbyofficial</small> 
+                                </li> 
+                            </ul> 
+                        </div> 
+                    </div> 
+                </div>                 
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="container"> 
+        <div class="text-center py-3">
+        <footer class="py-3 my-4"> 
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link px-2 text-body-secondary">Home</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="./catalogue.html" class="nav-link px-2 text-body-secondary">Catalogue</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="./gallery.html" class="nav-link px-2 text-body-secondary">Gallery</a>
+                </li> 
+                 <li class="nav-item">
+                    <a href="./hitung_ongkir.html" class="nav-link px-2 text-body-secondary">Ongkir</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="./log_in.html" class="nav-link px-2 text-body-secondary">Log In</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="./about_us.html" class="nav-link px-2 text-body-secondary">About Us</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="./contact_us.html" class="nav-link px-2 text-body-secondary">Contact Us</a>
+                </li>
+            </ul> 
+            <p class="text-center text-body-secondary">© 2025 Company, Inc</p> 
+        </footer> 
+        </div>
+    </div>
+
+    <script src="./mp.js"></script>
+    <script 
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+    </body>
+</html>
